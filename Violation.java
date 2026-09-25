@@ -42,7 +42,6 @@ public abstract class Violation {
 
     public abstract String calculatePenalty();
 
-    @Override
     public String toString() {
         return violationId + " | " + getClass().getSimpleName() + " | Severity " + severityLevel
                 + " | " + description + " -> " + calculatePenalty();
