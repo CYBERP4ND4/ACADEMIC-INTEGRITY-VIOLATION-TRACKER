@@ -18,8 +18,7 @@ public class PlagiarismViolation extends Violation {
         }
         this.similarityPercentage = s;
     }
-
-    @Override
+    
     public String calculatePenalty() {
         if (similarityPercentage >= 60.0) {
             return "Failing grade for the requirement and referral to the Student Discipline Office";
