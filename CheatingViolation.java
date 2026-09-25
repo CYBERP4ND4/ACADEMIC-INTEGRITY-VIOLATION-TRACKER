@@ -16,8 +16,6 @@ public class CheatingViolation extends Violation {
     public String getAssistanceType() {
         return assistanceType;
     }
-
-    @Override
     public String calculatePenalty() {
         if (examType.equalsIgnoreCase("Major Exam")) {
             return "Failing grade for the subject and referral to the Student Discipline Office";
