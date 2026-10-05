@@ -42,7 +42,7 @@ public class Main {
         faculty = new Faculty[] {
             new Faculty("F-1042", "Carisma A. Caro", "ccaro@hau.edu.ph", "School of Computing", "Program Chairperson"),
             new Faculty("F-1077", "Ramon Villanueva", "rvillanueva@hau.edu.ph", "School of Computing", "Instructor"),
-            new Faculty("F-1015", "Lourdes Bautista", "lbautista@hau.edu.ph", "School of Computing", "Dean")
+            new Faculty("F-1015", "Marlon Tayag", "mtayag@hau.edu.ph", "School of Computing", "Dean")
         };
     }
 
