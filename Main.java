@@ -34,10 +34,17 @@ public class Main {
     private static void loadSampleRecords() {
         students = new Student[] {
             new GraduateStudent("21-0456", "Rowena Cruz", "rcruz@hau.edu.ph",
-                    "MS Computer Science", 2, "Dr. Maria Santos", "Software Engineering"),
+            "MS Computer Science", 2, "Raquel Rivera", "Software Engineering"),
+            new GraduateStudent("20-0873", "Jerome Villanueva", "jvillanueva@hau.edu.ph",
+            "MS Information Technology", 1, "Abigail Magbag", "Network Security"),
+            new GraduateStudent("21-0612", "Patricia Navarro", "pnavarro@hau.edu.ph",
+            "MS Computer Science", 2, "Mary Jane Rabena", "Data Analytics"),
             new Student("23-1102", "Miguel Reyes", "mreyes@hau.edu.ph", "BS Computer Science", 3),
             new Student("24-0388", "Angela Dizon", "adizon@hau.edu.ph", "BS Information Technology", 2),
-            new Student("22-0719", "Paolo Mendoza", "pmendoza@hau.edu.ph", "BS Cybersecurity", 4)
+            new Student("22-0719", "Paolo Mendoza", "pmendoza@hau.edu.ph", "BS Cybersecurity", 4),
+            new Student("23-0915", "Kristine Lopez", "klopez@hau.edu.ph", "BS Computer Science", 3),
+            new Student("24-1250", "Daniel Santos", "dsantos@hau.edu.ph", "BS Cybersecurity", 1),
+
         };
         faculty = new Faculty[] {
             new Faculty("F-1016", "Joseph Esquivel", "jesquivel@hau.edu.ph", "School of Computing", "Graduate School Coordinator"),
