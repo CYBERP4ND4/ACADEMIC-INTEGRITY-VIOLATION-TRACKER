@@ -40,7 +40,10 @@ public class Main {
             new Student("22-0719", "Paolo Mendoza", "pmendoza@hau.edu.ph", "BS Cybersecurity", 4)
         };
         faculty = new Faculty[] {
-            new Faculty("F-1042", "Carisma Caro", "ccaro@hau.edu.ph", "School of Computing", "Program Chairperson"),
+            new Faculty("F-1016", "Joseph Esquivel", "jesquivel@hau.edu.ph", "School of Computing", "Graduate School Coordinator"),
+            new Faculty("F-1041", "Chris Almocera", "calmocera@hau.edu.ph", "School of Computing", "Information Technology Program Chairperson"),
+            new Faculty("F-1042", "Carisma Caro", "ccaro@hau.edu.ph", "School of Computing", "Computer Science Program Chairperson"),
+            new Faculty("F-1043", "Everly Chua", "echua@hau.edu.ph", "School of Computing", "Cybersecurity Program Chairperson"),
             new Faculty("F-1077", "Mary Jane Rabena", "mrabena@hau.edu.ph", "School of Computing", "Instructor"),
             new Faculty("F-1015", "Marlon Tayag", "mtayag@hau.edu.ph", "School of Computing", "Dean")
         };
