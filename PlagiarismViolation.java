@@ -2,7 +2,6 @@ public class PlagiarismViolation extends Violation {
 
     private double similarityPercentage;
 
-    @Override
     public PlagiarismViolation(String violationId, String description, String dateReported, int severityLevel, double similarityPercentage) {
         super(violationId, description, dateReported, severityLevel);
         setSimilarityPercentage(similarityPercentage);
