@@ -2,6 +2,7 @@ public class PlagiarismViolation extends Violation {
 
     private double similarityPercentage;
 
+    @Override
     public PlagiarismViolation(String violationId, String description, String dateReported, int severityLevel, double similarityPercentage) {
         super(violationId, description, dateReported, severityLevel);
         setSimilarityPercentage(similarityPercentage);
@@ -19,6 +20,7 @@ public class PlagiarismViolation extends Violation {
         this.similarityPercentage = s;
     }
     
+    @Override 
     public String calculatePenalty() {
         if (similarityPercentage >= 60.0) {
             return "Failing grade for the requirement and referral to the Student Discipline Office";
